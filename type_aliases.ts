@@ -11,3 +11,8 @@ const myPerson: Person = {
 };
 
 console.log(myPerson);
+
+function printPerson(person: Person) {
+    console.log(`${person.name}, ${person.age}, ${person.country}`);
+}
+printPerson(myPerson);
